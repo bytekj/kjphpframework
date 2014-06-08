@@ -1,0 +1,289 @@
+body, input, texarea h1 h2 h3 h4{
+	/*font-family: Helvetica,Arial,sans-serif;*/
+	font-family: Georgia, "Times New Roman",Times, serif;
+	color: #2B2B2B;
+	
+}
+
+a:link {text-decoration:none;}
+a:visited {color: #000;}
+a:hover {text-decoration:none;}
+a:active {text-decoration:none;}
+
+#main{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3px;
+	background-image: url("../images/bg/ppr3.jpg");
+	background-repeat: repeat-y;
+}
+
+header{
+	width: 100%;
+	display: inline-block;
+	
+}
+
+#leftsidebar{
+	float: left;
+	/*border: 1px solid green;*/
+	width: 10%;
+	margin-top: 0;
+	
+}
+
+#leftadimage{
+	margin-top: 10px;
+}
+#rightsidebar{
+	float:right;
+	
+	width: 19%;
+	margin-top: 0;
+	
+	height: 100%;
+}
+
+#rightadimage{
+	margin-top: 10px;
+}
+
+#page{
+	display: inline-table;
+	width: 70%;
+	padding: 1px;
+	min-height:400px;
+}
+
+
+footer{
+	/*
+	width: inherit;
+	position: fixed;
+	bottom: 0;
+	background: rgba(204,204,204,0.2);
+	*/
+	margin-top: 20px;
+}
+
+#welcome{
+	float: left;
+	margin-top: 5px;
+}
+
+#menubar{
+	/*background: #CCCCFF;*/
+	display: inline-block;
+	float: right;
+	width: 500px;
+	border-bottom: 1px solid #CCCCCC;
+	margin-right: 0px;
+	
+	
+}
+#menubar ul{
+	list-style-type:none;
+	margin-top: 5px;
+	padding:0;
+	
+}
+#menubar ul li{
+	display:inline;
+	margin-left: 2px;
+	margin-right: 2px;
+	float:right;
+}
+
+#menubar ul li a:hover{
+	background: #DDDDDD
+}
+
+#loginform{
+	width: 310px;
+	margin-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #CCCCCC;
+}
+
+.newslist{
+	width: 685px;
+	padding: 5px;
+	/*box-shadow: 1px 1px 1px #888888;*/
+	margin-top: 8px;
+	border:1px solid #CCCCCC;
+	margin-left: 5px;
+}
+.newstitle{
+	width: inherit;
+	text-shadow:1px 1px #CCCCCC;
+	color: #000;
+}
+
+.newstitle a:hover{
+	background: #DDDDDD;
+	color: #2B2B2B;
+	text-decoration: none;
+}
+
+#newstitlebig{
+	
+	padding: 5px;
+	text-shadow:1px 1px #CCCCCC;
+	color: #000;
+	
+	
+}
+#newstext{
+	
+	padding: 5px;
+}
+
+.justifytext{
+	text-align: justify;
+}
+
+#newsdetail{
+	width: 98%;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	border:1px solid #CCCCCC;
+}
+
+#comm_text{
+	width: 98%;
+	height: 50px;
+	margin: 3px;
+	
+}
+
+#comment_button{
+	margin-left: 91%;
+	
+}
+#commentform{
+	width: 98%;
+	border:1px solid #CCCCCC;
+	margin: 10px;
+}
+
+.comment{
+	width: 98%;
+	margin:10px;
+	border:1px solid #CCCCCC;
+}
+
+.commentowener{
+	text-align: left;
+	padding: 2px;
+}
+.commenttext{
+	text-align: justify;
+	padding: 2px;
+}
+.coment_date{
+	text-align: right;
+	padding: 2px;
+	font-size: 12px;
+}
+
+#newstitle{
+	width: 98%;
+	margin: 5px;
+}
+#addnewspage{
+	width: 98%;
+	margin: 10px;
+	border:1px solid #CCCCCC;
+}
+
+#news_text{
+	width: 98%;
+	margin: 5px;
+	height: 100px;
+}
+
+.newsdate{
+	margin-top: 5px;
+	font-size: 12px;
+}
+
+.news_status{
+	margin-top: 5px;
+	font-size: 12px;
+}
+.news_created_by{
+	margin-top: 5px;
+	font-size: 12px;	
+}
+
+#approveform{
+	margin-top: 10px;
+	margin-left: 91%;
+}
+
+#create_user_form{
+	width: 45%;
+	margin-top: 10px;
+	margin-left: 25%;
+	
+	border:1px solid #CCCCCC;
+}
+.label{
+	width: 120px;
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.forminput{
+	width: 100px;
+	display: inline-block;
+}
+
+.button{
+	margin: 2px;
+}
+
+#author{
+	float: right;
+	padding-left: 20px;
+	border-top: 1px solid #CCCCCC;
+	font-size: 12px;
+}
+#credits{
+	float:right;
+	padding-left: 20px;
+	border-top: 1px solid #CCCCCC;
+	font-size: 12px;
+}
+#roleselect{
+	margin-top: 10px;
+	margin-left: 45%;
+
+}
+#loginerror{
+	margin: 5px;
+	color: red;
+	font-size: 12px;
+}
+
+#searchform{
+	width: 100%;
+}
+
+#searchmsg{
+	width: 96%;
+	margin-left: 10px;
+}
+.keyword{
+	background-color: #CCCCCC;
+}
+
+#credits_page{
+	margin-top: 30px;
+	margin-left: 20%;
+	width: 60%;
+	text-align: center;
+}
